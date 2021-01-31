@@ -96,3 +96,70 @@ a {
 .button1 a {
     color: white;
 }
+/* koniec banneru */
+h3 {
+    font-size: 47px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+h3:before {
+    content: "";
+    background-color: red;
+    width: 70px;
+    height: 5px;
+    position: absolute;
+    top: 20px;
+    left: -80px;
+}
+h3:after {
+    content: "";
+    background-color: red;
+    width: 70px;
+    height: 5px;
+    position: absolute;
+    top: 20px;
+    right: -80px;
+}
+article {
+    text-align: center;
+}
+.article-photo {
+    width: 350px;
+    height: 250px;
+}
+.article-photo-img {
+    width: 100%;
+    height: 100%;
+}
+.blog-article {
+    max-width: 350px;
+    text-align: left;
+    margin: 10px;
+}
+.article-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    color: #6A6A6A;
+}
+.article-content p {
+    margin: 0;
+}
+.blog-article button {
+    width: 142px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 0;
+    color: white;
+    background-color: red;
+}
+
+/* gotowy artykół */
