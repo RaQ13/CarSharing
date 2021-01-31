@@ -26,6 +26,9 @@ header{
     position: absolute;
     top: 0;
     left: 0;
+    background: #00000066 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF33;
+    opacity: 1;
 }
 .menu {
     font-family: 'Nunito Sans', sans-serif;
@@ -163,3 +166,75 @@ article {
 }
 
 /* gotowy artykół */
+h5 {
+    font-size: 47px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: white;
+}
+h5:before {
+    content: "";
+    background-color: red;
+    width: 70px;
+    height: 5px;
+    position: absolute;
+    top: 20px;
+    left: -80px;
+}
+h5:after {
+    content: "";
+    background-color: red;
+    width: 70px;
+    height: 5px;
+    position: absolute;
+    top: 20px;
+    right: -80px;
+    bottom: 182px;
+}
+aside {
+    text-align: center;
+    margin-top: 60px;
+    background-color: #28272C;
+}
+.service-img {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+}
+.service-image {
+    width: 100%;
+    height: 100%;
+}
+.service-article {
+    max-width: 200px;
+    margin: 100px 50px;
+    color: white;
+}
+.service-article p {
+    margin: 0;
+    margin-top: 20px;
+}
+.service-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.service-article h4 {
+    margin-top: 10px;
+}
+.service-article button {
+    width: 142px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+    background-color: red;
+}
+/* gotowy service */
